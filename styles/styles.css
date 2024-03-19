@@ -1,0 +1,28 @@
+/* ESTILO GENERAL DE LA NVAR */
+.margen-nvar{
+    margin: 10px 0px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+
+/* BOTÓN DE BUSQUEDA PERSONALIZADO */
+.search-button {
+    background-color: transparent;
+    color: #8bd3dd;
+    border: 2px solid #8bd3dd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  /* CUANDO EL MAUSE ESTÁ ENCIMA */
+  .search-button:hover {
+    background-color: #8bd3dd;
+    color: #ffffff;
+  }
+   /* CUANDO SE PRECIONA EL BOTÓN  */
+  .search-button:active {
+    background-color: #3bcde0;
+    color: #ffffff;
+  }

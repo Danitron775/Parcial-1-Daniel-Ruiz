@@ -1,0 +1,50 @@
+/* ESTILO DE IMAGENES DE LAS NOTICIAS PAGINA PRINCIPAL */
+#img-noticia {
+    width: 500px;
+    height: 100px;
+  }
+
+  /* BOTÓN DE NOTICIA PERSONALIZADO */
+#link-button {
+    height: 50px;
+    width: 100px;
+    margin: 10px;;
+    background-color: transparent;
+    color: #8bd3dd;
+    border: 2px solid #8bd3dd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  /* CUANDO EL MAUSE ESTÁ ENCIMA */
+  #link-button:hover {
+    background-color: #8bd3dd;
+    color: #ffffff;
+  }
+   /* CUANDO SE PRECIONA EL BOTÓN  */
+  #link-button:active {
+    background-color: #3bcde0;
+    color: #ffffff;
+  }
+
+
+/* MODELO DE APARTADO DE NOTICIAS */
+.article-style{
+    margin: 10px;
+}
+  /* ESTILO DE TITULO NOTICIAS */
+h2 {
+    background-color: #CCCCCC;
+    padding: 10px; 
+    border-radius: 5px;
+  }
+  
+  /* ESTILO PARA EL CUERPO DE LA NOTICIA */
+  body > *:not(h2) {
+    background-color: #EAEAEA;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+  }
